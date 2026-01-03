@@ -30,8 +30,6 @@
 
   
   <main class="main">
-    @yield('content') 
-    </main>
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
@@ -702,5 +700,3 @@
 
 </body>
 </html>
-
- 
