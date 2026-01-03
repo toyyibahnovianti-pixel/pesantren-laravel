@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Lumia Bootstrap Template</title>
+  <title>pesantren al-insan</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -32,7 +32,7 @@
       <a href="{{ url('/') }}" class="logo d-flex align-items-center me-auto me-xl-0">
          <img src="{{ asset('assets/img/logo-pondok.png') }}" alt="Logo Pondok">
   
-         <h1 class="sitename">Nama Pondok Anda</h1>
+         <h1 class="sitename">pesantren al-insan</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -80,7 +80,7 @@
     <section id="hero" class="hero section dark-background">
 
   <img src="{{ asset('assets/img/logo-pondok.png.jpg') }}" alt="Background Pesantren" data-aos="fade-in">
-
+  
   <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
     <div class="row justify-content-center">
       <div class="col-lg-8">
@@ -96,61 +96,68 @@
   </div>
 
 </section>
-    </section><!-- /Hero Section -->
+    
+<section id="what-we-do" class="what-we-do section">
 
-    <!-- What We Do Section -->
-    <section id="what-we-do" class="what-we-do section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Program & Keunggulan</h2>
+    <p>Kami berkomitmen mencetak santri yang berwawasan luas dan berakhlak mulia</p>
+  </div><div class="container">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>What We Do</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+    <div class="row gy-4">
 
-      <div class="container">
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="why-box">
+          <h3>Mengapa Memilih Al-Insan?</h3>
+          <p>
+            Pesantren Al-Insan memadukan kurikulum salafiyah yang kuat dengan pendidikan formal modern. Kami fokus pada pembentukan karakter mandiri, penguasaan bahasa asing, dan pemanfaatan teknologi informasi sebagai sarana dakwah di masa depan.
+          </p>
+          <div class="text-center">
+            <a href="#about" class="more-btn"><span>Lihat Profil Lengkap</span> <i class="bi bi-chevron-right"></i></a>
+          </div>
+        </div>
+      </div><div class="col-lg-8 d-flex align-items-stretch">
+        <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
 
-        <div class="row gy-4">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="why-box">
-              <h3>Why Choose Our Products?</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
-              </p>
-              <div class="text-center">
-                <a href="#" class="more-btn"><span>Learn More</span> <i class="bi bi-chevron-right"></i></a>
-              </div>
+          <div class="col-xl-4">
+            <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-journal-check"></i>
+              <h4>Tahfidz Al-Qur'an</h4>
+              <p>Program setoran hafalan harian dengan target yang terukur untuk setiap santri.</p>
             </div>
-          </div><!-- End Why Box -->
+          </div><div class="col-xl-4">
+            <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-translate"></i>
+              <h4>Dua Bahasa</h4>
+              <p>Pembiasaan komunikasi harian menggunakan Bahasa Arab dan Bahasa Inggris.</p>
+            </div>
+          </div><div class="col-xl-4">
+            <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-laptop"></i>
+              <h4>Literasi Digital</h4>
+              <p>Pembekalan skill teknologi informasi agar santri siap menghadapi tantangan zaman.</p>
+            </div>
+          </div></div>
+      </div>
 
-          <div class="col-lg-8 d-flex align-items-stretch">
-            <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+    </div>
 
-              <div class="col-xl-4">
+  </div>
+
+</section>
+             <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                  <i class="bi bi-clipboard-data"></i>
-                  <h4>Corporis voluptates officia eiusmod</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                  <i class="bi bi-shield-check"></i> <h4>Pembinaan Akhlak</h4>
+                  <p>Membentuk karakter santri yang disiplin, mandiri, dan berakhlakul karimah dalam kehidupan sehari-hari.</p>
                 </div>
-              </div><!-- End Icon Box -->
-
-              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                  <i class="bi bi-gem"></i>
-                  <h4>Ullamco laboris ladore pan</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                </div>
-              </div><!-- End Icon Box -->
+             </div>
 
               <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
-                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                  <i class="bi bi-inboxes"></i>
-                  <h4>Labore consequatur incidid dolore</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                </div>
-              </div><!-- End Icon Box -->
-
+            <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-mortarboard"></i> <h4>Pendidikan Formal</h4>
+              <p>Menyelenggarakan jenjang pendidikan formal yang terakreditasi untuk masa depan santri.</p>
+            </div>
+          </div>```<div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
             </div>
           </div>
 
