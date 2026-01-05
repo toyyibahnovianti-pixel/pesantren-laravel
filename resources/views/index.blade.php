@@ -223,7 +223,7 @@
       <!-- Foto 1 -->
       <div class="col-md-4 col-sm-6">
         <div class="card border-0 shadow-sm">
-          <img src="assets/img/galeri kegiatan/Kegiatan belajar Kitab.jpg.jpg" class="img-fluid rounded" alt="Kegiatan Santri">
+          <img src="assets/img/galeri kegiatan/kegiatan belajar kitab.jpg.jpg" class="img-fluid rounded" alt="Kegiatan Santri">
           <div class="card-body text-center">
             <p class="mb-0">Kegiatan Belajar Kitab</p>
           </div>
