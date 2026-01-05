@@ -208,6 +208,51 @@
     </div>
   </div>
 </section>
+<!-- ===== GALERI KEGIATAN ===== -->
+<section id="galeri" class="py-5 bg-light">
+  <div class="container">
+    
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Galeri Kegiatan Santri</h2>
+      <p class="text-muted">
+        Dokumentasi aktivitas santri dalam pembinaan ilmu, akhlak, dan kedisiplinan
+      </p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Foto 1 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card border-0 shadow-sm">
+          <img src="assets/img/galeri kegiatan/Kegiatan belajar Kitab.jpg.jpg" class="img-fluid rounded" alt="Kegiatan Santri">
+          <div class="card-body text-center">
+            <p class="mb-0">Kegiatan Belajar Kitab</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Foto 2 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card border-0 shadow-sm">
+          <img src="assets/img/galeri kegiatan/galeri.jpg.jpg" class="img-fluid rounded" alt="Kegiatan Santri">
+          <div class="card-body text-center">
+            <p class="mb-0">Tahfidz Al-Qur'an</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Foto 3 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="card border-0 shadow-sm">
+          <img src="assets/img/galeri kegiatan/dokumentasi.jpg.jpg" class="img-fluid rounded" alt="Kegiatan Santri">
+          <div class="card-body text-center">
+            <p class="mb-0">Kegiatan Ibadah Jamaah</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
 <!-- ===== TATA TERTIB ===== -->
 <section id="tatatertib">
   <div class="container text-center">
