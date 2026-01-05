@@ -236,7 +236,7 @@
           <h5>Sikap & Akhlak</h5>
           <p>
             Santri wajib menjaga adab, sopan santun, dan menghormati
-            pengasuh, ustadz, serta sesama santri.
+            pengasuh, ustadz, ustadzah, serta sesama santri.
           </p>
         </div>
       </div>
@@ -252,8 +252,41 @@
           </p>
         </div>
       </div>
+      <!-- Aturan 4 -->
+<div class="col-md-4 mb-4">
+  <div class="card h-100 shadow-sm text-center p-3">
+    <i class="bi bi-book fs-1 text-primary mb-3"></i>
+    <h5>Kewajiban Belajar</h5>
+    <p>
+      Santri wajib mengikuti kegiatan belajar, mengaji, dan hafalan
+      sesuai dengan program yang telah ditentukan.
+    </p>
+  </div>
+</div>
 
-    </div>
+<!-- Aturan 5 -->
+<div class="col-md-4 mb-4">
+  <div class="card h-100 shadow-sm text-center p-3">
+    <i class="bi bi-exclamation-circle fs-1 text-primary mb-3"></i>
+    <h5>Larangan Barang Terlarang</h5>
+    <p>
+      Santri dilarang membawa dan menggunakan barang yang tidak sesuai
+      dengan peraturan pesantren.
+    </p>
+  </div>
+</div>
+
+<!-- Aturan 6 -->
+<div class="col-md-4 mb-4">
+  <div class="card h-100 shadow-sm text-center p-3">
+    <i class="bi bi-people fs-1 text-primary mb-3"></i>
+    <h5>Kebersamaan & Ukhuwah</h5>
+    <p>
+      Santri wajib menjaga kebersamaan, persaudaraan, serta saling
+      menghormati antar sesama santri.
+    </p>
+  </div>
+ </div>
 
   </div>
 </section>
@@ -285,7 +318,7 @@
       <div class="col-md-6 mb-4">
         <div class="card shadow-sm h-100">
           <div class="card-body">
-            <h5 class="text-primary">Ust. Muhammad Ali</h5>
+            <h5 class="text-primary">Ust. Mohammad Faiq</h5>
             <p class="mb-1"><strong>Jabatan:</strong> Pengajar Kitab Kuning</p>
             <p class="mb-1"><strong>Pendidikan:</strong> Alumni Pesantren Salaf</p>
             <p class="mb-0">
@@ -298,7 +331,7 @@
       <div class="col-md-6 mb-4">
         <div class="card shadow-sm h-100">
           <div class="card-body">
-            <h5 class="text-primary">Ust. Abdul Rahman</h5>
+            <h5 class="text-primary">Ust. Moh Rifqi</h5>
             <p class="mb-1"><strong>Jabatan:</strong> Pembina Tahfidz Al-Qur'an putra</p>
             <p class="mb-1"><strong>Pendidikan:</strong> S1 Ilmu Al-Qur'an</p>
             <p class="mb-0">
@@ -313,7 +346,7 @@
           <div class="card-body">
             <h5 class="text-primary">Ust. Muchdar</h5>
             <p class="mb-1"><strong>Jabatan:</strong> Pembina Santri Putra</p>
-            <p class="mb-1"><strong>Pendidikan:</strong> Pendidikan Agama Islam</p>
+            <p class="mb-1"><strong>Pendidikan:</strong> S1 Pendidikan Agama Islam</p>
             <p class="mb-0">
               Membina santri putra dalam kedisiplinan, tanggung jawab, serta pengamalan nilai-nilai keislaman.
             </p>
@@ -324,9 +357,9 @@
       <div class="col-md-6 mb-4">
         <div class="card shadow-sm h-100">
           <div class="card-body">
-            <h5 class="text-primary">Ustadzah Aisyah</h5>
+            <h5 class="text-primary">Ustadzah Toyyibah Noviyanti</h5>
             <p class="mb-1"><strong>Jabatan:</strong> Pembina Santri Putri</p>
-            <p class="mb-1"><strong>Pendidikan:</strong> Pendidikan Agama Islam</p>
+            <p class="mb-1"><strong>Pendidikan:</strong> S1 Pendidikan Agama Islam</p>
             <p class="mb-0">
               Membina santri putri dalam kedisiplinan, akhlak, dan pembelajaran dasar.
             </p>
@@ -350,9 +383,9 @@
       <div class="col-md-6 mb-4">
         <div class="card shadow-sm h-100">
           <div class="card-body">
-            <h5 class="text-primary">Ust. Hasan Basri</h5>
+            <h5 class="text-primary">Ust. Moh Rizki</h5>
             <p class="mb-1"><strong>Jabatan:</strong> Pengajar Bahasa Arab</p>
-            <p class="mb-1"><strong>Pendidikan:</strong> Lulusan Timur Tengah</p>
+            <p class="mb-1"><strong>Pendidikan:</strong> S1 Pendidikan Bahasa Arab</p>
             <p class="mb-0">
               Mengajarkan bahasa Arab aktif dan pasif untuk menunjang pemahaman kitab.
             </p>
