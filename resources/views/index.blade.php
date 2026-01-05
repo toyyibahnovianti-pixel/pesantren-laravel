@@ -115,7 +115,7 @@
 <section id="hero">
   <img src="{{ asset('assets/img/background.pondok.jpg') }}" alt="Pondok Pesantren">
   <div class="container" data-aos="fade-up">
-    <h1 class="display-4 fw-bold">
+    <h1 class="display-5 fw-bold">
       Selamat Datang di Pondok Pesantren Al-Insan
     </h1>
     <p class="mt-4">Mencetak Generasi Qurani, Berakhlak Mulia & Berprestasi</p>
