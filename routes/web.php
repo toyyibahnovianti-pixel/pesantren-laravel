@@ -9,7 +9,9 @@ Route::get('/', function () {
 Route::get('/daftar-santri', function () {
     return view('daftar-santri');
 });
-Route::post('/daftar-santri', function () {
-    return view('daftar-berhasil');
-});
+use App\Http\Controllers\DaftarSantriController;
+
+Route::post('/daftar-santri', [DaftarSantriController::class, 'store']);
+
+
 

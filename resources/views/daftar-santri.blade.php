@@ -58,49 +58,46 @@
 <div class="container">
     <h1>Formulir Pendaftaran Santri Baru</h1>
 
-    <form>
-        <form action="{{ url('/daftar-santri') }}" method="POST">
-         @csrf
-        <!-- Data Santri -->
+    <form action="{{ url('/daftar-santri') }}" method="POST">
+        @csrf
+
         <label>Nama Lengkap</label>
-        <input type="text" placeholder="Masukkan nama lengkap">
+        <input type="text" name="nama" required>
 
         <label>Tempat Lahir</label>
-        <input type="text" placeholder="Contoh: Sumenep">
+        <input type="text" name="tempat_lahir" required>
 
         <label>Tanggal Lahir</label>
-        <input type="date">
+        <input type="date" name="tanggal_lahir" required>
 
         <label>Jenis Kelamin</label>
-        <select>
-            <option>-- Pilih --</option>
-            <option>Laki-laki</option>
-            <option>Perempuan</option>
+        <select name="jenis_kelamin" required>
+            <option value="">-- Pilih --</option>
+            <option value="Laki-laki">Laki-laki</option>
+            <option value="Perempuan">Perempuan</option>
         </select>
 
         <label>Alamat Lengkap</label>
-        <textarea rows="3" placeholder="Alamat lengkap"></textarea>
+        <textarea name="alamat" rows="3" required></textarea>
 
-        <!-- Data Orang Tua -->
         <label>Nama Ayah</label>
-        <input type="text">
+        <input type="text" name="nama_ayah" required>
 
         <label>Nama Ibu</label>
-        <input type="text">
+        <input type="text" name="nama_ibu" required>
 
         <label>No. HP Orang Tua</label>
-        <input type="text" placeholder="08xxxxxxxxxx">
+        <input type="text" name="no_hp" required>
 
-        <!-- Pendidikan -->
         <label>Asal Sekolah</label>
-        <input type="text">
+        <input type="text" name="asal_sekolah" required>
 
         <label>Program yang Dipilih</label>
-        <select>
-            <option>-- Pilih Program --</option>
-            <option>Tahfidz Qur'an</option>
-            <option>Madrasah Diniyah</option>
-            <option>Pesantren Salaf</option>
+        <select name="program" required>
+            <option value="">-- Pilih Program --</option>
+            <option value="Tahfidz Qur'an">Tahfidz Qur'an</option>
+            <option value="Madrasah Diniyah">Madrasah Diniyah</option>
+            <option value="Pesantren Salaf">Pesantren Salaf</option>
         </select>
 
         <button type="submit">Daftar Sekarang</button>

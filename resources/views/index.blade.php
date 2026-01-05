@@ -214,6 +214,48 @@
     <h2>Tata Tertib Santri</h2>
     <p>Menanamkan disiplin, tanggung jawab, dan akhlakul karimah</p>
   </div>
+
+  <div class="row">
+
+      <!-- Aturan 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm text-center p-3">
+          <i class="bi bi-clock-history fs-1 text-primary mb-3"></i>
+          <h5>Disiplin Waktu</h5>
+          <p>
+            Santri wajib mengikuti seluruh kegiatan pesantren tepat waktu
+            sesuai dengan jadwal yang telah ditetapkan.
+          </p>
+        </div>
+      </div>
+
+      <!-- Aturan 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm text-center p-3">
+          <i class="bi bi-person-check fs-1 text-primary mb-3"></i>
+          <h5>Sikap & Akhlak</h5>
+          <p>
+            Santri wajib menjaga adab, sopan santun, dan menghormati
+            pengasuh, ustadz, serta sesama santri.
+          </p>
+        </div>
+      </div>
+
+      <!-- Aturan 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm text-center p-3">
+          <i class="bi bi-shield-check fs-1 text-primary mb-3"></i>
+          <h5>Kedisiplinan Lingkungan</h5>
+          <p>
+            Santri wajib menjaga kebersihan, ketertiban, dan keamanan
+            lingkungan pesantren.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
 </section>
 
 <!-- ===== PENGASUH ===== -->
@@ -221,6 +263,105 @@
   <div class="container text-center">
     <h2>Pengasuh & Asatidz</h2>
     <p>Dibimbing oleh tenaga pendidik berpengalaman</p>
+  </div>
+   <div class="row">
+
+      <!-- Pengasuh -->
+      <div class="col-md-12 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h4 class="mb-2">Pengasuh Pondok Pesantren</h4>
+            <h5 class="text-success">KH. Ahmad Fauzi</h5>
+            <p class="mb-1"><strong>Bidang:</strong> Pembinaan Akhlak & Kepesantrenan</p>
+            <p class="mb-0">
+              Bertanggung jawab atas seluruh kegiatan pesantren, pembinaan santri,
+              serta pengawasan pendidikan dan akhlakul karimah.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Asatidz -->
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="text-primary">Ust. Muhammad Ali</h5>
+            <p class="mb-1"><strong>Jabatan:</strong> Pengajar Kitab Kuning</p>
+            <p class="mb-1"><strong>Pendidikan:</strong> Alumni Pesantren Salaf</p>
+            <p class="mb-0">
+              Mengampu kajian kitab kuning dan pembelajaran keislaman klasik.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="text-primary">Ust. Abdul Rahman</h5>
+            <p class="mb-1"><strong>Jabatan:</strong> Pembina Tahfidz Al-Qur'an putra</p>
+            <p class="mb-1"><strong>Pendidikan:</strong> S1 Ilmu Al-Qur'an</p>
+            <p class="mb-0">
+              Membimbing santri putra dalam hafalan Al-Qur'an serta pembiasaan ibadah harian.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="text-primary">Ust. Muchdar</h5>
+            <p class="mb-1"><strong>Jabatan:</strong> Pembina Santri Putra</p>
+            <p class="mb-1"><strong>Pendidikan:</strong> Pendidikan Agama Islam</p>
+            <p class="mb-0">
+              Membina santri putra dalam kedisiplinan, tanggung jawab, serta pengamalan nilai-nilai keislaman.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="text-primary">Ustadzah Aisyah</h5>
+            <p class="mb-1"><strong>Jabatan:</strong> Pembina Santri Putri</p>
+            <p class="mb-1"><strong>Pendidikan:</strong> Pendidikan Agama Islam</p>
+            <p class="mb-0">
+              Membina santri putri dalam kedisiplinan, akhlak, dan pembelajaran dasar.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="text-primary">Ustadzah. Siti Rohmah</h5>
+            <p class="mb-1"><strong>Jabatan:</strong> Pembina Tahfidz Al-Qur'an putri</p>
+            <p class="mb-1"><strong>Pendidikan:</strong> S1 Ilmu Al-Qur'an</p>
+            <p class="mb-0">
+              Membimbing santri putra dalam hafalan Al-Qur'an serta pembiasaan ibadah harian.
+            </p>
+          </div>
+        </div>
+      </div>
+     
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h5 class="text-primary">Ust. Hasan Basri</h5>
+            <p class="mb-1"><strong>Jabatan:</strong> Pengajar Bahasa Arab</p>
+            <p class="mb-1"><strong>Pendidikan:</strong> Lulusan Timur Tengah</p>
+            <p class="mb-0">
+              Mengajarkan bahasa Arab aktif dan pasif untuk menunjang pemahaman kitab.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
   </div>
 </section>
 
@@ -233,7 +374,7 @@
       Bergabunglah bersama kami untuk membentuk generasi Qurani, berakhlak mulia, dan berprestasi.
     </p>
     <a href="{{ url('/daftar-santri') }}" class="btn btn-primary btn-lg px-5 rounded-pill">
-      Daftar Santri Sekarang
+      Pendaftaran Santri Baru
     </a>
     <p class="mt-3 text-muted">
       Informasi lebih lanjut hubungi: <br>
