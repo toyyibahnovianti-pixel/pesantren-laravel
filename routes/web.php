@@ -9,9 +9,13 @@ Route::get('/', function () {
 Route::get('/daftar-santri', function () {
     return view('daftar-santri');
 });
+
 use App\Http\Controllers\DaftarSantriController;
 
 Route::post('/daftar-santri', [DaftarSantriController::class, 'store']);
 
+Route::get('/profil', function () {
+    return view('profil');
+});
 
 

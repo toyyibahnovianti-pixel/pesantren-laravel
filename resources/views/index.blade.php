@@ -100,7 +100,7 @@
     <nav class="navmenu">
       <ul>
         <li><a href="#hero" class="active">Beranda</a></li>
-        <li><a href="#profil">Profil</a></li>
+        <li><a href="{{ url('/profil') }}">Profil</a></li>
         <li><a href="#program">Program</a></li>
         <li><a href="#tatatertib">Tata Tertib</a></li>
         <li><a href="#pengasuh">Pengasuh</a></li>
@@ -123,35 +123,45 @@
 
 </section>
 
-<!-- ===== PROFIL ===== -->
-<section id="profil">
+<!-- ===== VISI & MISI ===== -->
+<section id="visi-misi" class="py-5 bg-light">
   <div class="container text-center">
-    <h2>Profil Pesantren</h2>
-    <p>
-      Pesantren Al-Insan adalah lembaga pendidikan Islam terpadu yang lahir dari semangat untuk melahirkan generasi tangguh di era modern. 
-      Kami percaya bahwa pendidikan terbaik adalah yang menyeimbangkan antara kedalaman ilmu agama (Tafaqquh Fiddin) dengan penguasaan ilmu pengetahuan umum dan teknologi.
-      Di sini, santri tidak hanya dididik untuk hafal Al-Qur'an dan memahami kitab turats, tetapi juga dibekali dengan kecakapan literasi digital dan kemandirian karakter.
-    </p>
-     <p>
-        Dengan sistem pendidikan terpadu antara pesantren dan pendidikan formal,
-        Pesantren Al-Insan berkomitmen mencetak generasi Qurani, mandiri,
-        berakhlakul karimah, serta berprestasi.
+
+    <h2 class="mb-4">Visi & Misi Pesantren</h2>
+    <p class="mb-5">
+      Landasan dan arah pendidikan Pesantren Al-Insan dalam membina generasi Islami
+      yang berakhlak mulia dan berilmu.
     </p>
 
-    <h4 class="mt-4">Visi</h4>
-    <p>
-        Terwujudnya generasi Islam yang berilmu, beriman, dan berakhlak mulia.
-    </p>
+    <div class="row justify-content-center">
 
-    <h4>Misi</h4>
-    <ul>
-        <li>Menyelenggarakan pendidikan Al-Qur’an dan keislaman</li>
-        <li>Membentuk karakter santri yang disiplin dan mandiri</li>
-        <li>Mengembangkan potensi akademik dan spiritual santri</li>
-    </ul>
-    <footer class="text-center py-4 mt-5 bg-dark text-white">
-    © 2026 Pesantren Al-Insan
-   </footer>
+      <!-- VISI -->
+      <div class="col-md-5 mb-4">
+        <div class="card h-100 shadow-sm p-4">
+          <h4 class="mb-3">Visi</h4>
+          <p>
+            Terwujudnya generasi Islam yang Qurani, beriman, berilmu,
+            berakhlakul karimah, serta mandiri dalam kehidupan bermasyarakat.
+          </p>
+        </div>
+      </div>
+
+      <!-- MISI -->
+      <div class="col-md-5 mb-4">
+        <div class="card h-100 shadow-sm p-4 text-start">
+          <h4 class="mb-3 text-center">Misi</h4>
+          <ul>
+            <li>Menyelenggarakan pendidikan Al-Qur’an dan ilmu keislaman secara terpadu</li>
+            <li>Membentuk karakter santri yang disiplin, bertanggung jawab, dan mandiri</li>
+            <li>Menanamkan nilai akhlakul karimah dalam kehidupan sehari-hari</li>
+            <li>Mengembangkan potensi akademik, spiritual, dan sosial santri</li>
+            <li>Mempersiapkan santri menjadi generasi yang bermanfaat bagi umat dan bangsa</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
   </div>
 </section>
 
