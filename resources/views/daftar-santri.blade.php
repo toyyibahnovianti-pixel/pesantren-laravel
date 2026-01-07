@@ -7,16 +7,16 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f6f8;
+            background-color: #6584a4ff;
         }
 
         .container {
             width: 600px;
             margin: 40px auto;
-            background: #ffffff;
+            background: #967a7aff;
             padding: 25px;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 0 10px rgba(50, 46, 46, 0.1);
         }
 
         h1 {
@@ -34,7 +34,7 @@
             margin-top: 5px;
             margin-bottom: 15px;
             border-radius: 4px;
-            border: 1px solid #ccc;
+            border: 1px solid #655151ff;
         }
 
         button {
